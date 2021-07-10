@@ -1,0 +1,75 @@
+{
+  "name": "rate-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "HOST=0.0.0.0 PORT=8000 react-scripts start --o",
+    "build": "react-scripts build",
+    "test": "jest --config=./jest.config.js --passWithNoTests",
+    "q-test": "jest --config=./jest.config.js --coverage false",
+    "react-test": "react-scripts test",
+    "test-hackerrank": "npm install && rm -f ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext js src",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": "8.0.0 - 8.17.0 || 10.0.0 - 10.19.0 || 12.0.0 - 12.14.1 || 13.0.0 - 14.20.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.30",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.4.0",
+    "redux-saga": "^1.1.3",
+    "use-saga-reducer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^26.0.23",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-image-snapshot": "^4.5.0",
+    "jest-transform-css": "^2.1.0",
+    "jest-transform-file": "^1.1.1",
+    "jsdom-screenshot": "^4.0.0",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.2"
+  }
+}
