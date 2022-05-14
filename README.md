@@ -123,6 +123,11 @@ Your app is ready to be deployed!
 
 - [reactjs](https://reactjs.org/)
 - [material-ui](https://material-ui.com/)
+- [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)
+- [React Context for Beginners – The Complete Guide (2021)](https://www.freecodecamp.org/news/react-context-for-beginners)
+- [Context API](https://reactjs.org/docs/context.html)
+- [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 - [redux-saga](https://redux-saga.js.org/)
 - [use-saga-reducer](https://www.npmjs.com/package/use-saga-reducer)
 - [jsdoc](https://jsdoc.app/)
