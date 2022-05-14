@@ -44,7 +44,7 @@ Data is to be retrieved from the following open source API:
 
 <img src="./docs/img/7-app-display-error-message.png" width="500" alt = "App Preview">
 
-# Implementation detail
+# Implementation details
 
 - React framework is used.
 - ReactMaterial UI is used for basic styling, for the Datagrid component <br/>
@@ -53,6 +53,11 @@ Data is to be retrieved from the following open source API:
   - `useReducer` hook as layer to handle the business logic
   - `redux-saga` to hnadle asyncronous actions
   - `Context API` to share state beween nested components
+
+<img src="./docs/img/state-manager-app-context-work-flow.png"
+  width="500"
+  alt = "App Preview">
+
 - Appplication uses `ESlint` to keep code style consistency
 - Appplication uses ` JSDOC` to documentate the code and to enforce <br/>
   data type consistency such:
